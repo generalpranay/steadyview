@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "SteadyView",
+    "slug": "steadyview",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pranaybhalsod.steadyview",
+      "infoPlist": {
+        "LSSupportsOpeningDocumentsInPlace": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.pranaybhalsod.steadyview"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "steadyview",
+    "plugins": [
+      "expo-router"
+    ],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F6F3EC"
+    }
+  }
+}
